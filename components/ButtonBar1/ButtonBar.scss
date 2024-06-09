@@ -1,0 +1,33 @@
+.ButtonBar{
+    width: 392px;
+    height: 60px;
+    margin: 718px 0px;
+    background: url('../../images/ButtonBar.png') center / contain no-repeat;
+    color: var(--btntext);
+    opacity: 0.6;
+    position: relative;
+
+    .ButtonBar_info {
+        top: 12px;
+        margin: 0px 35px 0px;
+        display: flex;
+        gap: 65px;
+        position: relative;
+    }
+    .ButtonBar_top {
+        font-size: 25px;
+        font-weight: 300;
+        position: relative;
+    }
+    .ButtonBar_shop {
+        font-size: 25px;
+        font-weight: 300;
+        position: relative;
+    }
+    .ButtonBar_up {
+        font-size: 25px;
+        font-weight: 300;
+        position: relative;
+    }
+
+}

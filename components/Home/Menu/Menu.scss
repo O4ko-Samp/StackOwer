@@ -1,0 +1,29 @@
+.Menu {
+    width: 260px;
+    height: 250px;
+    bottom: 380px;
+    background: url('../../../images/MenuDragon.png') center / contain no-repeat;
+    position: absolute;
+    margin: 66px;
+    .Info{
+        margin: 205px 15px;
+        font-size: 16px;
+        font-weight: 300;
+        position: absolute;
+        color: var(--btntext);
+    }
+    .Dragons{
+        margin: 176px 10px;
+        font-size: 16px;
+        font-weight: 300;
+        position: absolute;
+        color: var(--btntext);
+    }
+    .Info_Bar {
+        margin: 10px 230px;
+        width: 20px;
+        height: 20px;
+        background: url('../../../images/Info.png') center / contain no-repeat;
+        position: absolute;
+    }
+}

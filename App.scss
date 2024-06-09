@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+.App{
+    width: 392px;
+    height: 844px;
+    border-radius: 20px;
+    background: var(--fon);
+    padding: 44px 0px 0px;
+    position: relative;
+}
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+:root {
+    --fon: #eae7dc;
+    --btncolor: #9E8F54;
+    --btntext: #2B2305;
+}
+body{
+    
+    font-family: "Irish Grover", system-ui;
+    display: grid;
+    color: var(--btntext);
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+}

@@ -1,0 +1,66 @@
+.InfoBarShop1{
+    width: 362px;
+    height: 75px;
+    bottom: 680px;
+    margin: 0px 20px;
+    background: url('../../../images/Morphis.png') center / contain no-repeat;
+    color: var(--btntext);
+    position: absolute;
+    .InfoBarShop11 {
+        font-size: 20px;
+        font-weight: 300;
+        margin: 5px 270px;
+    }
+    .InputMorphis{
+        max-width: 100px;
+        height: auto;
+        font-size: 18px;
+        font-weight: 300;
+        margin: 5px 260px;
+        border-radius: 15px;
+        text-align: center;
+        background-color: var(--fon);
+        border: 1px solid #9E8F54;
+    }
+    .InputMorphis:focus{
+        border: 0.5px solid #9E8F54;
+        outline: 1px solid #9E8F54;
+    }
+}
+.InfoBarShop2{
+    width: 362px;
+    height: 75px;
+    bottom: 600px;
+    margin: 0px 20px;
+    background: url('../../../images/Alphus.png') center / contain no-repeat;
+    color: var(--btntext);
+    position: absolute;
+    .InfoBarShop22 {
+        font-size: 20px;
+        font-weight: 300;
+        margin: 5px 270px;
+    }
+    .InputAlphus{
+        max-width: 100px;
+        height: auto;
+        font-size: 18px;
+        font-weight: 300;
+        margin: 5px 260px;
+        border-radius: 15px;
+        text-align: center;
+        background-color: var(--fon);
+        border: 1px solid #9E8F54;
+    }
+    .InputAlphus:focus{
+        border: 0.5px solid #9E8F54;
+        outline: 1px solid #9E8F54;
+    }
+    .buttons{
+        margin: 0px 100px;
+        position: absolute;
+    }
+}
+.InputButton1{
+    margin: 0px 100px;
+    position: absolute;
+}

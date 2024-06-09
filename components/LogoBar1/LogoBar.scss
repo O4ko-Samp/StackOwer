@@ -1,0 +1,46 @@
+.LogoBar{
+    width: 392px;
+    height: 66px;
+    margin: 0px;
+    background: url('../../images/logo_bar.png') center / contain no-repeat;
+    color: var(--btntext);
+    position: relative;
+
+    .LogoBar_label {
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0px 175px;
+    }
+    .MenuButton{
+    width: 40px;
+    height: 40px;
+    background: url('../../images/menu.svg') center / contain no-repeat;
+    position: absolute;
+    margin: -5px 335px;
+    }
+    .MenuLogo{
+    width: 40px;
+    height: 40px;
+    background: url('../../images/menulogo.png') center / contain no-repeat;
+    color: var(--btntext);
+    position: absolute;
+    margin: -5px 20px;
+    }
+    .LogoBar_info {
+        margin: 27px 110px;
+        white-space: nowrap;
+        display: flex;
+        gap: 20px;
+        position: relative;
+    }
+    .LogoBar_balance1 {
+        font-size: 14px;
+        font-weight: 300;
+        position: relative;
+    }
+    .LogoBar_balance2 {
+        font-size: 14px;
+        font-weight: 300;
+        position: relative;
+    }
+}
